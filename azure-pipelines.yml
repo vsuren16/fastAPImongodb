@@ -2,8 +2,8 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '57e2d243-130a-4d15-800e-47bcd42bbf5a'
-  webAppName: 'testeeeappee'
+  azureServiceConnectionId: '4df5bab2-cef8-4889-8e6d-845f4d494de2'
+  webAppName: 'surendarwebapp'
   pythonVersion: '3.11'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: testeeeappee
+    environment: surendarwebapp
 
     strategy:
       runOnce:
