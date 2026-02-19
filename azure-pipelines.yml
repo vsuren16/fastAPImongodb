@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '4df5bab2-cef8-4889-8e6d-845f4d494de2'
+  azureServiceConnectionId: '2b4cd7cb-f2b7-4230-8c2d-8b84476a4846'
   webAppName: 'surendarwebapp'
   pythonVersion: '3.11'
 
